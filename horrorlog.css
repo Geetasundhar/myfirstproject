@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    background-image: url(log1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 90vh;
+    background-color: none;
+    display: grid;
+    place-items: center;
+   
+
+}
+#form{
+    width: 30%;
+    color: white;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 20px 0px 20px 0px;
+    padding: 30px;
+    background-image: url(log.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 60%;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.inputs input{
+    width: 100%;
+    padding: 5px;
+    border:2px solid rgb(230, 221, 221);
+    margin-top: 5px;
+    background-color: black; 
+    color:white;
+}
+#form button{
+    background-color: rgba(110, 124, 124, 0.553);
+    border: 2px solid rgb(255, 247, 247);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    color: white;
+    cursor: pointer; 
+
+}
+.inputs input:focus{
+    outline: 0;
+}
+.inputs .error{
+    color: rgb(242,18,18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.inputs.success input{
+    border-color: rgb(84, 241, 149);
+}
+
+.inputs.error input{
+    border-color: rgb(242, 18, 18);
+}
